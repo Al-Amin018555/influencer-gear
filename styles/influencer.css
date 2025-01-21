@@ -117,6 +117,7 @@ nav li a {
     }
     .banner .banner-container{
         flex-direction: column-reverse;
+        text-align: center;
     }
     .banner-img  {
         width: 250px;
