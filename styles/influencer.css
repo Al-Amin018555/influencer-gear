@@ -118,6 +118,10 @@ nav li a {
     .banner .banner-container{
         flex-direction: column-reverse;
         text-align: center;
+        
+    }
+    .banner-content{
+        max-width: 400px;
     }
     .banner-img  {
         width: 250px;
