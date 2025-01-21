@@ -111,11 +111,15 @@ nav li a {
     header{
         padding: 20px;
     }
-    .banner .banner-container{
-        flex-direction: column-reverse;
-    }
     nav
     {
         flex-direction: column;
     }
+    .banner .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-img  {
+        width: 250px;
+    }
+    
 }
