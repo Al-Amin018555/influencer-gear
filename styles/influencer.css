@@ -61,7 +61,7 @@ nav li a {
 /* banner related styles */
 .banner .banner-container {
     display: flex;
-    gap: 100px;
+    /* gap: 100px; */
     margin-top: 90px;
     align-items: center;
     justify-content: space-between;
@@ -105,40 +105,74 @@ nav li a {
     width: 100%;
 }
 
+/* main related styles */
+main {
+    max-width: 1110px;
+    /* border: 1px solid red; */
+    margin: 100px auto;
+}
+
+/* sponsors section starts here */
+.sponsors-img-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 50px;
+
+}
+.sponsors-img-container img{
+    width: 84px;
+}
+
+.hide{
+    display: none;
+}
+
 /* responsive styles */
 /* for mobile devices */
 @media screen and (max-width: 576px) {
-    header{
+    header {
         padding: 20px;
     }
-    nav
-    {
+
+    nav {
         flex-direction: column;
     }
-    .banner .banner-container{
+
+    .banner .banner-container {
         flex-direction: column-reverse;
         text-align: center;
-        
+
     }
-    .banner-content{
+
+    .banner-content {
         max-width: 400px;
     }
-    .banner-img  {
+
+    .banner-img {
         width: 250px;
     }
-    
+    .sponsors-img-container{
+        display: grid;
+    }
+
 }
+
+/* tablet or medium devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    header{
+    header {
         padding: 20px;
     }
-    nav
-    {
+
+    nav,
+    .sponsors-img-container {
         flex-direction: column;
     }
-    .banner .banner-container{
+    .sponsors-img-container img{
+        width: 100%;
+    }
+    .banner .banner-container {
         flex-direction: column-reverse;
         text-align: center;
-        
+
     }
 }
