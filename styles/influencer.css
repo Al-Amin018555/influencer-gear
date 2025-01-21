@@ -128,3 +128,17 @@ nav li a {
     }
     
 }
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    header{
+        padding: 20px;
+    }
+    nav
+    {
+        flex-direction: column;
+    }
+    .banner .banner-container{
+        flex-direction: column-reverse;
+        text-align: center;
+        
+    }
+}
