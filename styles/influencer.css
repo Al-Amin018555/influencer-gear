@@ -165,6 +165,35 @@ main {
     font-weight: 700;
     color: #787885;
 }
+
+/* featured products styles */
+.featured-products {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.featured-products .featured-img {
+    width: 100%;
+}
+
+.featured-content .featured-title {
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #0A0826;
+    margin-bottom: 20px;
+
+}
+.featured-content .featured-description{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #6C6C6C;
+}
+.featured-content button{
+          padding: 10px 24px;   
+          border-radius: 0px; 
+          margin-top: 10px;                   
+}
 /* .see-more{
     display: flex;
     justify-content: flex-end;
@@ -197,7 +226,8 @@ main {
     .sponsors-img-container {
         display: grid;
     }
-    .popular-collection{
+
+    .popular-collection {
         grid-template-columns: 1fr;
     }
 }
