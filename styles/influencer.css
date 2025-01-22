@@ -7,6 +7,10 @@
     font-family: "Inter", serif;
 }
 
+.font-manrope {
+    font-family: "Manrope", serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -184,20 +188,63 @@ main {
     margin-bottom: 20px;
 
 }
-.featured-content .featured-description{
+
+.featured-content .featured-description {
     font-size: 1rem;
     font-weight: 700;
     color: #6C6C6C;
 }
-.featured-content button{
-          padding: 10px 24px;   
-          border-radius: 0px; 
-          margin-top: 10px;                   
+
+.featured-content button {
+    padding: 10px 24px;
+    border-radius: 0px;
+    margin-top: 10px;
 }
-/* .see-more{
+
+.see-more {
     display: flex;
     justify-content: flex-end;
-} */
+    margin-top: 50px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgba(224, 44, 109, 0.87);
+}
+.see-more .fa-solid{
+    margin-left: 5px;
+}
+/* footer related styles */
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.footer-copyright {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #D9DBE1;
+}
+
+.footer p {
+    margin-bottom: 5px;
+}
+
+.footer .social-links {
+    margin-top: 20px;
+
+}
+
+.footer .social-links a {
+    margin-right: 10px;
+}
+
 /* responsive styles */
 /* for mobile devices */
 @media screen and (max-width: 576px) {
@@ -215,12 +262,15 @@ main {
         text-align: center;
 
     }
-    .featured-products .featured-img{
+
+    .featured-products .featured-img {
         margin-top: 30px;
     }
-    .featured-products{
+
+    .featured-products {
         padding: 50px;
     }
+
     .banner-content {
         max-width: 400px;
     }
@@ -246,7 +296,8 @@ main {
     }
 
     nav,
-    .sponsors-img-container {
+    .sponsors-img-container,
+    .featured-products {
         flex-direction: column;
     }
 
