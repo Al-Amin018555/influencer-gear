@@ -133,12 +133,18 @@ main {
 }
 
 /* popular collection related styles */
-.popular-collection {
+.popular-collection .popular-cards-container {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
 }
-
+.popular-collection .popular-title{
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #3A3A3A;
+    text-align: center;
+    margin-bottom: 30px;
+}
 .popular-collection .cards {
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     padding: 15px;
@@ -204,6 +210,7 @@ main {
 .see-more {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     margin-top: 50px;
     font-size: 1rem;
     font-weight: 700;
@@ -283,7 +290,7 @@ main {
         display: grid;
     }
 
-    .popular-collection {
+    .popular-collection .popular-cards-container{
         grid-template-columns: 1fr;
     }
 
@@ -300,7 +307,13 @@ main {
     .featured-products {
         flex-direction: column;
     }
-
+    .featured-products{
+        text-align: center;
+        gap: 30px;
+    }
+    .featured-content{
+        padding: 0 50px;
+    }
     .sponsors-img-container img {
         width: 100%;
     }
