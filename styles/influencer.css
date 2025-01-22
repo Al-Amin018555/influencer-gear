@@ -209,12 +209,18 @@ main {
         flex-direction: column;
     }
 
-    .banner .banner-container {
+    .banner .banner-container,
+    .featured-products {
         flex-direction: column-reverse;
         text-align: center;
 
     }
-
+    .featured-products .featured-img{
+        margin-top: 30px;
+    }
+    .featured-products{
+        padding: 50px;
+    }
     .banner-content {
         max-width: 400px;
     }
@@ -230,6 +236,7 @@ main {
     .popular-collection {
         grid-template-columns: 1fr;
     }
+
 }
 
 /* tablet or medium devices */
